@@ -43,7 +43,7 @@ yourLoveRate = calculate_love_rate(numbers)
 def Print_Love(yourLoveRate):
     yourLoveR = int(yourLoveRate)
     if yourLoveR < 25:
-        print("Your love rate with {} is just %{}. But this a stupid internet test go ask them out".format(LoverName, yourLoveR))
+        print("Your love rate with {} is just %{}. But this is a stupid internet test go ask them out".format(LoverName, yourLoveR))
     elif yourLoveR < 45:
          print("Your love rate with {} is just %{}. It is possible".format(LoverName, yourLoveR))
     elif yourLoveR < 50:
